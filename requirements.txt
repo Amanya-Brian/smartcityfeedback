@@ -1,0 +1,8 @@
+streamlit
+langchain
+ipykernel
+python-dotenv
+langchain_community
+jq
+jsonlines
+langchain-text-splitters
