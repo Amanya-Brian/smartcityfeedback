@@ -6,3 +6,8 @@ langchain_community
 jq
 jsonlines
 langchain-text-splitters
+chromadb
+sentence_transformers
+langchain_huggingface
+langchain_chroma
+langchain-groq
