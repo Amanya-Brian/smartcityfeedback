@@ -11,3 +11,6 @@ sentence_transformers
 langchain_huggingface
 langchain_chroma
 langchain-groq
+fastapi
+uvicorn
+langserve
