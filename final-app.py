@@ -32,7 +32,7 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-chroma_db_path = "/chroma_db"
+chroma_db_path = "./chroma_db"
 vectorstore = Chroma(persist_directory=chroma_db_path, embedding_function=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2"))
 
 
