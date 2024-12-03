@@ -12,7 +12,8 @@ st.set_page_config(page_title="Kigali Smart City Guide", page_icon="🏙️")
 st.title("🏙️ Kigali Smart City Guide")
 
 ## Langsmith Tracking
-os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
+# os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
+os.environ["LANGCHAIN_API_KEY"]=st.secrets["LANGCHAIN_API_KEY"] # for streamlit deployment
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_PROJECT"]="Final Kigali Smart City Assistant"
 
